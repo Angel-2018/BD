@@ -1,0 +1,28 @@
+84a85,106
+> -- Table structure for table `series2`
+> --
+> 
+> DROP TABLE IF EXISTS `series2`;
+> /*!40101 SET @saved_cs_client     = @@character_set_client */;
+> /*!40101 SET character_set_client = utf8 */;
+> CREATE TABLE `series2` (
+>   `titulo` varchar(50) DEFAULT NULL,
+>   `año` int(11) DEFAULT NULL
+> ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+> /*!40101 SET character_set_client = @saved_cs_client */;
+> 
+> --
+> -- Dumping data for table `series2`
+> --
+> 
+> LOCK TABLES `series2` WRITE;
+> /*!40000 ALTER TABLE `series2` DISABLE KEYS */;
+> /*!40000 ALTER TABLE `series2` ENABLE KEYS */;
+> UNLOCK TABLES;
+> 
+> --
+140c162
+< -- Dump completed on 2023-11-30 10:48:23
+---
+> -- Dump completed on 2023-11-30 10:57:12
+Fecha del respaldo: 2023-11-30 10:57:12.521127
